@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #232222;
+	height: 100vh;
+	font-family: Lato;
+	color: yellow;
+}
+
+header {
+	align-items: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+	padding: 0.8rem;
+	background-color: #000000;
+	min-height: 50px;
+	display: flex;
+}
+
+.header:hover {
+	align-items: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+	padding: 0.8rem;
+	background-color: #000000;
+	min-height: 50px;
+	display: flex;
+}
+
+.logo {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family: Lato;
+	font-size: xx-large;
+	padding-left: 3rem;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	background-color: #232222;
+	border-radius: 1rem;
+	gap: 6rem;
+}
+
+nav {
+	padding-left: 3.5rem;
+	font-size: larger;
+	display: flex;
+	gap: 2rem;
+}
+
+.nav-links {
+	text-decoration: none;
+	color: #ffff;
+}
+
+.nav-links:hover {
+	color: yellow;
+	transition: 0.4s;
+	text-decoration: underline;
+}
+
+.github-a {
+	background-color: transparent;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 0.9rem;
+	padding: 0.6rem;
+}
+
+.github-div {
+	padding-left: 9rem;
+	font-size: x-large;
+}
+
+.github-a:hover {
+	background-color: #232222;
+	transition: 0.4s;
+	text-decoration: underline;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+section {
+	padding: 4rem;
+}
+
+.first-section {
+	display: flex;
+	gap: 2rem;
+	min-height: 550px;
+}
+
+.first-section>div {
+	display: flex;
+	flex-direction: column;
+	min-width: 300px;
+}
+
+h1 {
+	font-size: 4rem;
+	color: white;
+	letter-spacing: 8px;
+}
+
+strong {
+	color: aqua;
+}
+
+.saber-mais {}
+
+.saber-mais:hover {
+	background-color: black;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 0.9rem;
+	padding: 0.6rem;
+}
+
+.img-profile {
+	max-width: 450px;
+	max-height:
+		padding: 1rem;
+	border-radius: 50%;
+	width: 100%;
+}
+
+.second-section {
+	background-color: darkslategrey;
+}
+
+.img-who-am-i {
+	padding-left: 100rem;
+	max-width: 30rem;
+	max-height: 35rem;
+	padding: 1rem;
+	border-radius: 50%;
+	width: 100%;
+
+}
+
+.third-section {
+	background-color: #232222;
+
+}
+
+.fourth-section {
+	background-color: darkslategrey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.lista-experiencia {
+	text-decoration: none;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 1rem;
+	gap: 3rem;
+	text-align: center;
+	list-style: none;
+}
+
+.titulo-contato {
+	text-align: center;
+
+}
+
+#sub-titulo {
+	text-align: center;
+}
+
+fieldset {
+	border: 0;
+
+}
+
+input,
+select,
+textarea,
+button {
+	border-radius: 5px;
+}
+
+.campo {
+	margin-bottom: 1em;
+}
+
+.campo label {
+	margin-bottom: 0.2em;
+	display: block;
+}
+
+fildset.grupo .campo {
+	float: left;
+	margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+	padding: 0.2em;
+	border: 1px black;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+	background: darkslategray;
+}
+
+.botao {
+	font-size: 1.2rem;
+	border: 0;
+	margin-bottom: 1em;
+	padding: 0.2em 0.6em;
+}
+
+.botao:hover {
+	background: darkslategray;
+
+}
+
+.footer-contato {
+	background-color: darkslategray;
+	min-height: 80px;
+	display: flex;
+	flex-direction: row;
+	column-gap: 6rem;
+	align-items: center;
+	padding-left: 20rem;
+}
+
+.first-servicos {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.tabela {
+	width: 60rem;
+	height: 15rem;
+	background-color: #494848;
+	color: aqua;
+	text-align: center;
+}
+
+.pg {
+	text-align: center;
+	gap: 3rem;
+	padding: 3rem;
+}
